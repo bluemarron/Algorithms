@@ -9,6 +9,8 @@ public class RotateArray_V1 {
         System.out.println("[#] orgArray: " + String.valueOf(orgArray));
         System.out.println("[#] rotatedArray: " + String.valueOf(rotatedArray));
 
+//        [#] orgArray: 0123456789
+//        [#] rotatedArray: 6789012345
     }
 
     private static char[] getRotatedArray(char[] orgArray, int order) {

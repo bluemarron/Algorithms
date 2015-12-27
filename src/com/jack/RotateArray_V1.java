@@ -1,13 +1,15 @@
 package com.jack;
 
+import java.util.Arrays;
+
 public class RotateArray_V1 {
 
     public static void main(String[] args) {
         char[] orgArray = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
         char[] rotatedArray = getRotatedArray(orgArray, 4);
 
-        System.out.println("[#] orgArray: " + String.valueOf(orgArray));
-        System.out.println("[#] rotatedArray: " + String.valueOf(rotatedArray));
+        System.out.println("[#] orgArray: " + Arrays.toString(orgArray));
+        System.out.println("[#] rotatedArray: " + Arrays.toString(rotatedArray));
 
 //        [#] orgArray: 0123456789
 //        [#] rotatedArray: 6789012345

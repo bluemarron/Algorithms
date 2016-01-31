@@ -2,6 +2,7 @@ package com.jack;
 
 import java.util.Arrays;
 
+// http://www.programcreek.com/2015/03/rotate-array-in-java/
 public class RotateArray_V1 {
 
     public static void main(String[] args) {
